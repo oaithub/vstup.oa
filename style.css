@@ -34,7 +34,7 @@
   box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.06);
   
  border-top-width: 3px;
- border-top-color:#608ee7;
+ border-top-color:#278dab;
 }
 .card-body{
   margin-left: 70px;
@@ -44,7 +44,7 @@
   font-size: 17px;
   font-family: Tahoma;
   font-weight: 400;
-  background: #608ee7;
+  background: #278dab;
   color: white;
   border-radius: 0;
   width: 210px;
@@ -64,7 +64,7 @@ margin-top: 25px;
 font-family: Arial;
 font-weight: 400;
 font-size: 13px;
-color:#608ee7;
+color:#278dab;
 
 }
 .lin__a{
@@ -73,7 +73,7 @@ color:#608ee7;
   margin-bottom: 30px;
 }
 .badge__col1{
-  background: #608ee7;
+  background: #278dab;
   color: white;
   font-family: Arial;
   font-weight: 400;
@@ -84,7 +84,7 @@ color:#608ee7;
   margin-bottom: 30px;
 }
 .badge__col2{
-  background: #608ee7;
+  background: #278dab;
   color: white;
   font-family: Arial;
   font-weight: 400;
@@ -116,7 +116,7 @@ line-height: 20px;
 font-family: Arial;
 font-weight: 400;
 font-size: 13px;
-color:#608ee7;
+color:#278dab;
 margin-bottom: -25px;
 }
 .text-color1{
@@ -124,7 +124,7 @@ margin-bottom: -25px;
   font-family: Arial;
   font-weight: 400;
   font-size: 13px;
-  color:#608ee7;
+  color:#278dab;
   margin-bottom: -1px;
   }
 .bal{
@@ -135,7 +135,7 @@ margin-bottom: -25px;
   margin-bottom: 30px;
 }
 .bal1{
-  color:#608ee7;
+  color:#278dab;
 }
 .text__or{
   font-size: 13px;
@@ -144,7 +144,7 @@ margin-bottom: -25px;
   margin-bottom: -15px;
 }
 .rozr{
-  color:#608ee7;
+  color:#278dab;
   font-size: 13px;
   font-family: Arial;
   font-weight: 400;
@@ -165,14 +165,14 @@ margin-bottom: -25px;
   font-weight: 400;
 }
 .vidb{
-  color:#608ee7;
+  color:#278dab;
   font-size: 13px;
   font-family: Arial;
   font-weight: 400;
   margin-bottom: 30px;
 }
 .vidb1{
-  color:#608ee7;
+  color: #278dab;
   font-size: 13px;
   font-family: Arial;
   font-weight: 400;
@@ -192,7 +192,7 @@ margin-bottom: -25px;
   font-size: 13px;
 }
 .prich{
-  color:#608ee7;
+  color:#278dab;
   font-size: 13px;
   font-family: Arial;
   font-weight: 400;
@@ -207,7 +207,7 @@ margin-bottom: -25px;
   margin-bottom: 30px;
 }
 .prog{
-  color:#608ee7;
+  color:#278dab;
   font-size: 13px;
   font-family: Arial;
   font-weight: 400;
@@ -217,7 +217,7 @@ margin-bottom: -25px;
   margin-bottom: 20px;
 }
 .per{
-  color:#608ee7;
+  color:#278dab;
   font-size: 13px;
   font-family: Arial;
   font-weight: 400;
@@ -277,7 +277,7 @@ width: 141px;
   
 }
 .p_vid{
-  color: #608ee7;
+  color: #278dab;
   font-size: 17px;
   font-family: Arial;
 }
@@ -325,14 +325,14 @@ font-size: 13px;
   width: 30px;
 }
 .vidg{
-  color:#608ee7;
+  color:#278dab;
   
 
 }
 .btn-p{
   height: 40px;
   color: white;
-  background: #608ee7;
+  background: #278dab;
   border-radius: 0;
   font-family: Tahoma;
   font-weight: bold;
