@@ -482,5 +482,9 @@ transform: translate(-50%, 0)
  .p_blog{
   font-weight: 700;
    font-size: 20px;
+   margin-top: 30px;
  
+ }
+ .card_b{
+   border-top: 3px solid #278dab ;
  }
