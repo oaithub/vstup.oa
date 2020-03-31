@@ -416,7 +416,7 @@ font-size: 13px;
   
 
 }
-.btn-p{
+.expand{
   height: 40px;
   color: white;
   background: #278dab;
@@ -425,3 +425,62 @@ font-size: 13px;
   font-weight: bold;
   font-size: 10px;
 }
+
+
+
+table { 
+  width: 100%; 
+
+ border: 2px solid white;
+ }
+ th { 
+
+ 
+  padding: 5px; 
+  border: 1px solid lightgrey
+ 
+ }
+ td { 
+  padding: 5px;
+   
+   border: 1px solid lightgrey
+ }
+ .p_cards{
+   color: grey;
+   font-size: 12px;
+ }
+ .p_cards span{
+  color: #1E90FF;
+ } 
+ .more{
+
+  border:2px solid #278dab; 
+ font-family: sans-serif;
+  color:#278dab;
+  border-radius: 5px;
+  font-size: 11px;
+width:120px;
+
+padding: 10px 15px 10px 15px;
+  background-color: transparent;
+  position: relative;
+left: 50%;
+transform: translate(-50%, 0)
+
+ }
+
+ .more:hover,
+ .more:focus{
+ background-color: #278dab;
+ color :#fff
+ }
+ .img_blog{
+   width: 220px;
+   height: 140px;
+   border-radius: 5px;
+ }
+ .p_blog{
+  font-weight: 700;
+   font-size: 20px;
+ 
+ }

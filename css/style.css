@@ -410,7 +410,7 @@ label.mc-label .fa{
   position: relative;
   display: inline-block;
   border:2px solid #278dab;
-  padding:13px 45px 12px;
+  /* padding:13px 45px 12px; */
   text-decoration: none;
   font-size: 13px;
   color:#fff;
@@ -493,7 +493,7 @@ label.mc-label .fa{
 .btn-b-dark:focus{
   color:#fff;
   background-color: #278dab;
-}
+} 
 
 
 
