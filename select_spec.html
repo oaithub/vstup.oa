@@ -1,0 +1,400 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <!-- Favicons -->
+
+ 
+
+  <!-- Fonts -->
+
+ 
+  <!-- Styles -->
+
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="style.css" rel="stylesheet" media="screen">
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <script>
+    $(document).ready(function () {
+
+        $('.panel-heading-acc').click(function () {
+            $(this).toggleClass('in').next().slideToggle();
+            $('.panel-heading-acc').not(this).removeClass('in').next().slideUp();
+        });
+
+    });
+    $(document).ready(function () {
+
+$('.panel-heading-menu').click(function () {
+    $(this).toggleClass('in').next().slideToggle();
+    $('.panel-heading-menu').not(this).removeClass('in').next().slideUp();
+});
+});
+$(document).ready(function(){
+    $('.popover-dismissible').popover({
+    placement : 'top'
+  }); 
+});
+
+</script>
+
+</head>
+
+<body>
+    <header id="top" class="navbar headerfixed">
+       <div class="container ">
+       
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Показати навігацію</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#home" class="brand a_ js-target-scroll">
+            <span class="text-primary"><img src="logoeblem.png" id="emblem" alt="IT"/>Абітурієнт ОА
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li >
+              <a href="#profession" class="js-target-scroll">Спеціальності</a>
+            </li>
+            <li>
+              <a href="#blogs" class="js-target-scroll">Блоги першокурсників</a>
+            </li>
+            <li>
+              <a href="#spudei" class="js-target-scroll">Твій спудей</a>
+            </li>
+            <li>
+              <a href="#answer" class="js-target-scroll">Питання та відповіді</a>
+            </li>
+            <li>
+                <a href="#gallery" class="js-target-scroll">Фотогалерея</a>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </header>
+
+    <!-- Home -->
+
+<div class="container "> 
+<div class="col-lg-3 col-md-3 col-sm-12 col-12 menu">
+   
+    <div class="card">
+     
+      <table class="tb_sel">
+        <tr class="tr_menu"> 
+           <td class="td_menu">
+            <p class="ph_menu"><b>Обрати спеціальність</b></p>
+              <p class="ph_menu">  за предметами ЗНО
+            </p>
+            </td>
+            </tr>
+    <tr>
+        <td class="td_menu_ch">
+              <label class="container_ch "> Українська мова та література
+                <input type="checkbox"  checked="checked">
+                <span class="checkmark1"></span>
+              </label>
+            </br>
+              <label class="container_ch ">Історія України
+                <input type="checkbox"  checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container_ch ">Англійська мова
+                <input type="checkbox" checked="checked" >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container_ch ">Біологія
+                <input type="checkbox"  >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container_ch ">Математика
+                <input type="checkbox"  >
+                <span class="checkmark"></span>
+              </label>
+              <label class="container_ch ">Географія
+                <input type="checkbox"  >
+                <span class="checkmark"></span>
+              </label>
+            <label class="container_ch ">Хімія
+                <input type="checkbox"  >
+                <span class="checkmark"></span>
+              </label>
+            <label class="container_ch ">Фізика
+                <input type="checkbox"  >
+                <span class="checkmark"></span>
+              </label>
+            <button type="button" class="more_m btn btn-outline-info">Пошук</button></td>
+            </td> 
+                </tr>
+      </table>
+     
+      </div>
+   
+</div>
+<div class="col-lg-9 col-md-9 col-sm-12  col-12 contain" >
+    <div class="card">
+   <table class="tb_sel">
+         <tr class="tr_h"> 
+            <td class="td_h">
+                 <p>КОД</p>
+             </td>
+            <td class="td_h">
+                <p>СПЕЦІАЛЬНІСТЬ</p>
+             </td>
+            <td class="td_h">
+                <p>ФАКУЛЬТЕТ</p>
+            </td>
+            <td class="td_h">
+                <p>ЗНО</p>
+            </td>
+         </tr>
+        <tr class="tr_sel"> 
+             <td class="td_sel">
+                <p>241</p>
+            </td>
+            <td class="td_sel">
+                <p>Готельно-ресторанна справа/Готельно-ресторання справа(небюджетна)</p>
+             </td>
+            <td class="td_sel">
+                <p>Геграфічний факультет</p>
+             </td>
+             <td class="td_sel">
+                <a href="#select" data-trigger="hover" data-toggle="popover" data-placement="left"  data-html="true" data-content="<div class='div_a'> Українська мова та література  100 </br> Англійська мова <p class='p_num'> 100 </p></br>Географія або математика<p class='p_num1'>100</p> </br> </div>">
+                    <svg class="bi bi-question-circle" width="25px" height="25px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+                        <path d="M5.25 6.033h1.32c0-.781.458-1.384 1.36-1.384.685 0 1.313.343 1.313 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.007.463h1.307v-.355c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.326 0-2.786.647-2.754 2.533zm1.562 5.516c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                      </svg>
+                </a>
+             </td>
+        </tr>
+        <tr class="tr_sel"> 
+            <td class="td_sel">
+                 <p>051</p>
+            </td>
+            <td class="td_sel">
+                <p>Економіка/Економіка та правове регулювання в бізнесі(небюджетна)</p>
+             </td>
+            <td class="td_sel">
+                <p>Економічний факультет</p>
+            </td>
+            <td class="td_sel">
+                <a href="#select" data-trigger="hover" data-toggle="popover" data-placement="left"  data-html="true" data-content="<div class='div_a'>Українська мова та література  100 </br> Англійська мова  <p class='p_num'> 100 </p> </br>Математика <p class='p_num1'> 100 </p> </br></div>">
+                    <svg class="bi bi-question-circle" width="25px" height="25px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 15A7 7 0 108 1a7 7 0 000 14zm0 1A8 8 0 108 0a8 8 0 000 16z" clip-rule="evenodd"/>
+                        <path d="M5.25 6.033h1.32c0-.781.458-1.384 1.36-1.384.685 0 1.313.343 1.313 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.007.463h1.307v-.355c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.326 0-2.786.647-2.754 2.533zm1.562 5.516c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+                      </svg>
+                </a>
+            </td>
+        </tr>
+                                <tr class="tr_sel"> 
+                                    <td class="td_sel">
+            <p>КОД</p>
+                                    </td>
+                                    <td class="td_sel">
+                                        <p>СПЕЦІАЛЬНІСТЬ</p>
+                                    </td>
+                                    <td class="td_sel">
+                                        <p>ФАКУЛЬТЕТ</p>
+                                    </td>
+                                    <td class="td_sel">
+                                        <p>ЗНО</p>
+                                    </td>
+                                    </tr>
+                                    <tr class="tr_sel"> 
+                                        <td class="td_sel">
+                <p>КОД</p>
+                                        </td>
+                                        <td class="td_sel">
+                                            <p>СПЕЦІАЛЬНІСТЬ</p>
+                                        </td>
+                                        <td class="td_sel">
+                                            <p>ФАКУЛЬТЕТ</p>
+                                        </td>
+                                        <td class="td_sel">
+                                            <p>ЗНО</p>
+                                        </td>
+                                        </tr>
+                                        <tr class="tr_sel"> 
+                                            <td class="td_sel">
+                    <p>КОД</p>
+                                            </td>
+                                            <td class="td_sel">
+                                                <p>СПЕЦІАЛЬНІСТЬ</p>
+                                            </td>
+                                            <td class="td_sel">
+                                                <p>ФАКУЛЬТЕТ</p>
+                                            </td>
+                                            <td class="td_sel">
+                                                <p>ЗНО</p>
+                                            </td>
+                                            </tr>
+                                            <tr class="tr_sel"> 
+                                                <td class="td_sel">
+                        <p>КОД</p>
+                                                </td>
+                                                <td class="td_sel">
+                                                    <p>СПЕЦІАЛЬНІСТЬ</p>
+                                                </td>
+                                                <td class="td_sel">
+                                                    <p>ФАКУЛЬТЕТ</p>
+                                                </td>
+                                                <td class="td_sel">
+                                                    <p>ЗНО</p>
+                                                </td>
+                                                </tr>
+                                                <tr class="tr_sel"> 
+                                                    <td class="td_sel">
+                            <p>КОД</p>
+                                                    </td>
+                                                    <td class="td_sel">
+                                                        <p>СПЕЦІАЛЬНІСТЬ</p>
+                                                    </td>
+                                                    <td class="td_sel">
+                                                        <p>ФАКУЛЬТЕТ</p>
+                                                    </td>
+                                                    <td class="td_sel">
+                                                        <p>ЗНО</p>
+                                                    </td>
+                                                    </tr>
+                                                    <tr class="tr_sel"> 
+                                                        <td class="td_sel">
+                                <p>КОД</p>
+                                                        </td>
+                                                        <td class="td_sel">
+                                                            <p>СПЕЦІАЛЬНІСТЬ</p>
+                                                        </td>
+                                                        <td class="td_sel">
+                                                            <p>ФАКУЛЬТЕТ</p>
+                                                        </td>
+                                                        <td class="td_sel">
+                                                            <p>ЗНО</p>
+                                                        </td>
+                                                        </tr>
+                                                        <tr class="tr_sel"> 
+                                                            <td class="td_sel">
+                                    <p>КОД</p>
+                                                            </td>
+                                                            <td class="td_sel">
+                                                                <p>СПЕЦІАЛЬНІСТЬ</p>
+                                                            </td>
+                                                            <td class="td_sel">
+                                                                <p>ФАКУЛЬТЕТ</p>
+                                                            </td>
+                                                            <td class="td_sel">
+                                                                <p>ЗНО</p>
+                                                            </td>
+                                                            </tr>
+                                                            <tr class="tr_sel"> 
+                                                                <td class="td_sel">
+                                        <p>КОД</p>
+                                                                </td>
+                                                                <td class="td_sel">
+                                                                    <p>СПЕЦІАЛЬНІСТЬ</p>
+                                                                </td>
+                                                                <td class="td_sel">
+                                                                    <p>ФАКУЛЬТЕТ</p>
+                                                                </td>
+                                                                <td class="td_sel">
+                                                                    <p>ЗНО</p>
+                                                                </td>
+                                                                </tr>
+                                                                <tr class="tr_sel"> 
+                                                                    <td class="td_sel">
+                                            <p>КОД</p>
+                                                                    </td>
+                                                                    <td class="td_sel">
+                                                                        <p>СПЕЦІАЛЬНІСТЬ</p>
+                                                                    </td>
+                                                                    <td class="td_sel">
+                                                                        <p>ФАКУЛЬТЕТ</p>
+                                                                    </td>
+                                                                    <td class="td_sel">
+                                                                        <p>ЗНО</p>
+                                                                    </td>
+                                                                    </tr>
+                                                                                                                      
+
+                </table>
+        </div>    
+    
+    </div>
+ </div>
+
+ <footer id="footer" class="footer text-white">
+    <div class="footer-bottom">
+      <div class="container">
+<div class="row">
+<div class="col-md-4 col-lg-4">
+ <p>Приймальна комісія</p>
+ <p></p><strong>Графік роботи:</strong><br />
+     Понеділок &#8211; п&#8217;ятниця: 9:00 &#8211; 17:00</p><br />
+     <p><strong>Адреса:</strong> м.Острог, вул. Семінарська, 2<br />
+     <strong>Телефони (для вступників на 2-3 курс і на магістеріум):</strong> (03654) 3-00-69, (097) 55-37-410<br />
+     <strong>E-mail:</strong> <a href="mailto:idzdn@oa.edu.ua">idzdn@oa.edu.ua</a></p>
+     </div>
+
+<div class="col-md-4 col-lg-4">
+<p>Консультації для вступників на 1 курс:<br />
+<strong>Графік роботи:</strong><br />
+Щодня з 9:00 до 18:00, без вихідних<br />
+<strong>Адреса:</strong> м.Острог, вул. Семінарська, 2<br />
+<strong>Телефон: (096) 02-66-880</strong></p>
+</div>
+
+<div class="col-md-4 col-lg-4">
+   <a href="https://t.me/admissionoa2020" target="_blank"><img src="img\icons\telegram.png" class="inst" alt=""></a>
+  <a href="https://www.instagram.com/ostrohacademy1576/" target="_blank" ><img src="img\icons\inst.png" class="inst" alt=""></a>
+    <a href="https://www.facebook.com/vstupoa/" target="_blank" ><img src="img\icons\fb.png" class="inst" alt=""></a>
+ <p ><br />Сайт розроблено випускниками та студентами НаУОА для майбутніх спудеїв. Успішного вступу :)</p>
+ <p><!--BEGIN JIVOSITE CODE {literal} <br />
+ <script type='text/javascript'>
+ (function(){ var widget_id = 'gRzGGBAyOT';var d=document;var w=window;function l(){
+ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script><br />
+ <!-- {/literal} END JIVOSITE CODE-->
+</p>
+ </div>                              
+</div>
+</div>
+</div>
+</footer> 
+
+  
+  
+
+  <!-- Modals -->
+
+
+  <!-- SCRIPTS -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- <script src="js/jquery.viewport.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.ajaxchimp.min.js"></script>
+  <script src="js/jQuerySimpleCounter.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/imagesloaded.pkgd.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/interface.js"></script> -->
+  <script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();   
+    });
+    </script>
+
+</body>
+</html>
